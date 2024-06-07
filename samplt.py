@@ -2,13 +2,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import rc
-from scipy.stats import linregress
-from scipy import signal
-import control as ct
 import csv
-
-
-rc('text', usetex=True)
 
 
 def newplot():

@@ -1,4 +1,6 @@
-from samplt import datalog_step, datalog_actuating
+from samplt import datalog_step, datalog_actuating, newplot
+import matplotlib.pyplot as plt
+from scipy import signal
 
 # Open loop.
 tm, mm = datalog_step('openloop', 'Open Loop Step Response')
