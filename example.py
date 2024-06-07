@@ -1,4 +1,5 @@
-# Part A.
+from samplt import datalog_step, datalog_actuating
+
 # Open loop.
 tm, mm = datalog_step('openloop', 'Open Loop Step Response')
 
